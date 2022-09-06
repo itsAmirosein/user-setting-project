@@ -51,7 +51,7 @@ function Main({ t }: MainProps) {
 
   function handleOnSubmitClick() {
     dispatch({
-      type: actions.HANDLE_ADD_TO_LIST_ITEMS,
+      type: actions.HANDLE_POST_DATA,
       payload: {
         url: socialUrl,
         type: socialType,

@@ -40,6 +40,12 @@ const App: React.FC<any> = ({ t }) => {
     return createTheme(getTheme(mode));
   }, [mode]);
 
+  React.useEffect(() => {
+    dispatch({
+      type: actions.HANDLE_GET_DATA,
+    });
+  }, []);
+
   const handleClose = (
     event: React.SyntheticEvent | Event,
     reason?: string

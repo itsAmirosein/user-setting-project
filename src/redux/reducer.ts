@@ -26,7 +26,7 @@ const ACTIONS: any = {
   [actions.HANDLE_ADD_POPUP_OPEN]: handleAddPopupOpen,
   [actions.HANDLE_SOCIAL_TYPE]: handleSocialType,
   [actions.HANDLE_SOCIAL_URL]: handleSocialUrl,
-  [actions.HANDLE_ADD_TO_LIST_ITEMS]: handleAddToListItems,
+  [actions.HANDLE_POST_DATA]: handleAddToListItems,
   [actions.HANDLE_ON_DELETE]: handleOnDelete,
   [actions.HANDLE_EDIT_POPUP_OPEN]: handleOnEditOpen,
   [actions.HANDLE_SELECTED_ITEM_LINK_EDIT]: handleOnLinkEdit,
